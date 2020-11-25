@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ckanext-datarequests 0.3.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-04-28 14:45+0200\n"
-"PO-Revision-Date: 2020-11-21 18:19+0100\n"
+"PO-Revision-Date: 2020-11-25 14:57+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -259,7 +259,9 @@ msgstr ""
 "qui ne sont pas encore disponibles sur la platform. Si vous voulez des "
 "données particulières et que vous ne les trouvez pas parmi les jeux de "
 "données existants, vous pouvez créer un nouvelle requête de données et "
-"spécifier les données auxquelles vous souhaiteriez accéder."
+"spécifier les données auxquelles vous souhaiteriez accéder. Vous devez être "
+"<a href=\"/user/login\">authentifié</a> pour pouvoir soumettre une nouvelle "
+"demande ou un commentaire."
 
 #: ckanext/datarequests/templates/datarequests/close.html:3
 #: ckanext/datarequests/templates/datarequests/close.html:8
@@ -322,12 +324,12 @@ msgstr "Fermer"
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:19
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_item.html:12
 msgid "Closed"
-msgstr "Fermée"
+msgstr "Fermé"
 
 #: ckanext/datarequests/templates/datarequests/show.html:50
 #: ckanext/datarequests/templates/datarequests/snippets/datarequest_item.html:16
 msgid "Open"
-msgstr "Ouvrir"
+msgstr "Ouvert"
 
 #: ckanext/datarequests/templates/datarequests/snippets/additional_info.html:2
 msgid "Additional Info"
